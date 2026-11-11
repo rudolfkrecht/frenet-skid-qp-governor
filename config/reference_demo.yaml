@@ -1,0 +1,30 @@
+torque_supervisor_qp:
+  ros__parameters:
+    input_topic: /cmd_vel_mpc
+    output_topic: /governor/cmd_vel
+    odom_topic: /tyr/odom
+    debug_topic: /governor/debug
+    timeout_s: 0.5
+    sample_time: 0.05
+    a_v: 0.0
+    b_v: 1.0
+    f_c: 0.0
+    v_epsilon: 0.05
+    g_gamma: 0.0
+    a_r: 0.0
+    b_r: 1.0
+    v_max: 0.30
+    r_max: 1.50
+    kappa_max: 2.0
+    dv_dt_max: 0.35
+    dr_dt_max: 1.20
+    tau_sum_max: 4.0
+    tau_diff_max: 4.0
+    tau_side_max: 3.0
+    eta_tau: 0.90
+    track_width: 0.72
+    nonreversing_wheels: false
+    w_track_v: 10.0
+    w_track_r: 10.0
+    w_smooth_v: 2.0
+    w_smooth_r: 2.0

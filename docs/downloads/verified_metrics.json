@@ -1,0 +1,32 @@
+[
+  {
+    "run": "tyr_sup_frenet_path1_rep2_0",
+    "frame": "map",
+    "n_odom": 5267,
+    "duration_s": 109.65162944793701,
+    "rms_cte_m": 0.005305587281774626,
+    "max_cte_m": 0.008369137602304939,
+    "mean_cte_m": 0.004677668015279983,
+    "sha256": "77a3cc6f450e2f1ac4844aea747bf5635e9b73e77b2ed90d749bbd0b85a8235d"
+  },
+  {
+    "run": "tyr_sup_frenet_path2_rep2_0",
+    "frame": "map",
+    "n_odom": 9347,
+    "duration_s": 186.99182891845703,
+    "rms_cte_m": 0.016095670225804413,
+    "max_cte_m": 0.03057179241793172,
+    "mean_cte_m": 0.013485845618649467,
+    "sha256": "17b82a56436f6aab0027eda1651fcbe15933402c985d43d945b55d460a96fb5c"
+  },
+  {
+    "run": "tyr_sup_frenet_path3_rep2_0",
+    "frame": "map",
+    "n_odom": 6268,
+    "duration_s": 129.91259241104126,
+    "rms_cte_m": 0.024816918791894977,
+    "max_cte_m": 0.0389112178940041,
+    "mean_cte_m": 0.02211337851671678,
+    "sha256": "c7caa8b9d58573d64fca3f400bc16dcfee5f90bcbb568de32592bbb3d4e98282"
+  }
+]

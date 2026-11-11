@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "root": "identification_carpet",
+    "fs": 50.0,
+    "out": "identified_params_demo.json",
+    "left_axes": "1,3",
+    "right_axes": "2,4",
+    "vel_units": "radps",
+    "m": 400.0,
+    "Rw": 0.169,
+    "b": 0.716,
+    "Iz": 200.0,
+    "calib_wcmd_thresh": 0.05,
+    "calib_min_samples": 80,
+    "calib_vcmd_min": 0.02,
+    "calib_acc_min": 0.05,
+    "include_c2": false,
+    "fit_d1": false,
+    "tau_diff_decay_thresh": 1.0,
+    "min_decay_samples": 200
+  },
+  "bags_used": {
+    "straight": 15,
+    "rotate": 4,
+    "circle": 4
+  },
+  "calibration": {
+    "wheel_speed_sign_map": {
+      "1": 1,
+      "3": -1,
+      "2": -1,
+      "4": 1
+    },
+    "torque_sign_map": {
+      "1": -1,
+      "3": -1,
+      "2": 1,
+      "4": 1
+    },
+    "yaw_rate_sign": -1,
+    "wheel_speed_sign_method": "corr(w_axis_i, v_cmd) >= 0 on near-straight commanded segments",
+    "torque_sign_method": "corr(tau_axis_i, vdot) >= 0 on near-straight acceleration segments",
+    "yaw_sign_method": "corr(tau_diff, rdot) >= 0 on rotate runs (flip r if negative)"
+  },
+  "straight_fit": {
+    "Fgain": 5.516856005738531,
+    "c0": 6.805578111093453,
+    "c1": 55.81084905803192
+  },
+  "yaw_fit": {
+    "Mgain": 0.07208997422846163,
+    "d0": 22.193171903682074,
+    "d1": 0.0
+  },
+  "yaw_fit_notes": {
+    "method": "two_stage",
+    "d0_source": "decay_ls",
+    "tau_diff_decay_thresh": 1.0,
+    "fit_d1": false
+  },
+  "notes": {
+    "v_source": "v=Rw/2*(wR+wL) from ODrive vel_estimate after per-axis speed sign calibration",
+    "torque_source": "ODrive torque_estimate after per-axis torque sign calibration",
+    "r_source": "IMU angular_velocity.z after yaw-rate sign calibration",
+    "recommended_low_speed": "omit c2 (default) and typically keep d1=0 unless wide velocity range is available"
+  }
+}

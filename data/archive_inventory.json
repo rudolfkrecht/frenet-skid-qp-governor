@@ -1,0 +1,201 @@
+{
+  "checked_on": "2026-11-10",
+  "scope": "Metadata inventory of the original bags_tyr folder; only three rep2 supervised bags are bundled and content-validated here.",
+  "recordings": [
+    {
+      "path": "tyr_frenet_path2_rep2/tyr_frenet_path2_rep2_0.db3",
+      "bytes": 13070336,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path3_rep2/tyr_cp2p_path3_rep2_0.db3",
+      "bytes": 7929856,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path3_rep2/tyr_sup_frenet_path3_rep2_0.db3",
+      "bytes": 14372864,
+      "bundled": true
+    },
+    {
+      "path": "tyr_pp2p_path1_rep2/tyr_pp2p_path1_rep2_0.db3",
+      "bytes": 7565312,
+      "bundled": false
+    },
+    {
+      "path": "tyr_ppc_path1_rep1/tyr_ppc_path1_rep1_0.db3",
+      "bytes": 8892416,
+      "bundled": false
+    },
+    {
+      "path": "tyr_pp2p_path1_rep1/tyr_pp2p_path1_rep1_0.db3",
+      "bytes": 5648384,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path2_rep1/tyr_frenet_path2_rep1_0.db3",
+      "bytes": 12021760,
+      "bundled": false
+    },
+    {
+      "path": "tyr_pp2p_path2_rep2/tyr_pp2p_path2_rep2_0.db3",
+      "bytes": 7499776,
+      "bundled": false
+    },
+    {
+      "path": "tyr_ppc_path2_rep2/tyr_ppc_path2_rep2_0.db3",
+      "bytes": 4386816,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path1_rep3/tyr_cp2p_path1_rep3_0.db3",
+      "bytes": 4751360,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path1_rep2/tyr_sup_frenet_path1_rep2_0.db3",
+      "bytes": 12808192,
+      "bundled": true
+    },
+    {
+      "path": "tyr_cp2p_path2_rep3/tyr_cp2p_path2_rep3_0.db3",
+      "bytes": 8192000,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path1_rep1/tyr_sup_frenet_path1_rep1_0.db3",
+      "bytes": 13328384,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path2_rep2/tyr_sup_frenet_path2_rep2_0.db3",
+      "bytes": 24416256,
+      "bundled": true
+    },
+    {
+      "path": "tyr_frenet_path3_rep2/tyr_frenet_path3_rep2_0.db3",
+      "bytes": 10665984,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path2_rep3/tyr_frenet_path2_rep3_0.db3",
+      "bytes": 11993088,
+      "bundled": false
+    },
+    {
+      "path": "tyr_pp2p_path2_rep1/tyr_pp2p_path2_rep1_0.db3",
+      "bytes": 8019968,
+      "bundled": false
+    },
+    {
+      "path": "tyr_ppc_path1_rep3/tyr_ppc_path1_rep3_0.db3",
+      "bytes": 9613312,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path3_rep1/tyr_cp2p_path3_rep1_0.db3",
+      "bytes": 7110656,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path3_rep3/tyr_frenet_path3_rep3_0.db3",
+      "bytes": 9949184,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path3_rep1/tyr_sup_frenet_path3_rep1_0.db3",
+      "bytes": 16756736,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path1_rep2/tyr_frenet_path1_rep2_0.db3",
+      "bytes": 9211904,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path1_rep3/tyr_frenet_path1_rep3_0.db3",
+      "bytes": 6410240,
+      "bundled": false
+    },
+    {
+      "path": "tyr_ppc_path1_rep2/tyr_ppc_path1_rep2_0.db3",
+      "bytes": 9519104,
+      "bundled": false
+    },
+    {
+      "path": "tyr_ppc_path2_rep3/tyr_ppc_path2_rep3_0.db3",
+      "bytes": 5111808,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path3_rep1/tyr_frenet_path3_rep1_0.db3",
+      "bytes": 11489280,
+      "bundled": false
+    },
+    {
+      "path": "tyr_pp2p_path1_rep3/tyr_pp2p_path1_rep3_0.db3",
+      "bytes": 5435392,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path1_rep3/tyr_sup_frenet_path1_rep3_0.db3",
+      "bytes": 14557184,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path2_rep1/tyr_cp2p_path2_rep1_0.db3",
+      "bytes": 9814016,
+      "bundled": false
+    },
+    {
+      "path": "tyr_pp2p_path2_rep3/tyr_pp2p_path2_rep3_0.db3",
+      "bytes": 7720960,
+      "bundled": false
+    },
+    {
+      "path": "tyr_frenet_path1_rep1/tyr_frenet_path1_rep1_0.db3",
+      "bytes": 8282112,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path3_rep3/tyr_sup_frenet_path3_rep3_0.db3",
+      "bytes": 16482304,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path2_rep3/tyr_sup_frenet_path2_rep3_0.db3",
+      "bytes": 24657920,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path1_rep1/tyr_cp2p_path1_rep1_0.db3",
+      "bytes": 5124096,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path1_rep2/tyr_cp2p_path1_rep2_0.db3",
+      "bytes": 5636096,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path3_rep3/tyr_cp2p_path3_rep3_0.db3",
+      "bytes": 7344128,
+      "bundled": false
+    },
+    {
+      "path": "tyr_ppc_path2_rep1/tyr_ppc_path2_rep1_0.db3",
+      "bytes": 5566464,
+      "bundled": false
+    },
+    {
+      "path": "tyr_cp2p_path2_rep2/tyr_cp2p_path2_rep2_0.db3",
+      "bytes": 11018240,
+      "bundled": false
+    },
+    {
+      "path": "tyr_sup_frenet_path2_rep1/tyr_sup_frenet_path2_rep1_0.db3",
+      "bytes": 24227840,
+      "bundled": false
+    }
+  ]
+}
