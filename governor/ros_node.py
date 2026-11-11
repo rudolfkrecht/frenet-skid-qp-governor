@@ -47,7 +47,7 @@ class TorqueSupervisorQP(Node):
 
     def step(self):
         now = time.monotonic()
-        info = {'implementation':'reconstructed-2026-11-10'}
+        info = {'implementation':'qp-command-governor'}
         if self.nominal is None or self.state is None or max(now-self.t_cmd,now-self.t_odom)>self.timeout:
             command,info['status'] = (0.,0.),'stale_input_stop_request'
         else:

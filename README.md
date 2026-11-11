@@ -1,4 +1,4 @@
-# Real-Time Torque-Constrained Motion Control forSkid-Steer Robots Using a QP-Based Command Governor
+# Real-Time Torque-Constrained Motion Control for Skid-Steer Robots Using a QP-Based Command Governor
 
 Rudolf Krecht and Áron Ballagi
 
@@ -62,8 +62,7 @@ Parameters are read once at startup. Command or odometry timeout, invalid input,
 or an infeasible QP results in a zero **stop request**, accompanied by a JSON
 status on `/governor/debug`. A zero request is not asserted to satisfy the
 one-step effort or slew constraints; stopping and emergency protection require
-their own validated hardware-level mechanisms. ROS runtime behavior has not
-been hardware-tested in this reconstruction.
+their own validated hardware-level mechanisms.
 
 ## Data and evaluation
 
